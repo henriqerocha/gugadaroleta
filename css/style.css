@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    width: 100%;
+}
+.topo{
+    display: flex;
+    width: 100%;
+    background-color: #000;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+}
+.descricao1{
+    color: #fff;
+    font-size: 1.5em;
+    font-family: 'roboto';
+    text-align: center;
+}
+.container{
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+main{
+    display: flex;
+    width: 100%;
+    position: relative;
+    
+}
+.content-principal{
+    display: flex;
+    width: 100%;
+    min-height: 500px;
+    height: 100%;
+    background-image: url('../assets/roleta.gif');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.primeiro-content{
+    font-family: 'roboto';
+    font-size: 2em;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+.primeiro-content span{
+    color: #08bc08;
+}
