@@ -31,28 +31,45 @@ header{
 main{
     display: flex;
     width: 100%;
-    position: relative;
-    
-}
-.content-principal{
-    display: flex;
-    width: 100%;
-    min-height: 500px;
-    height: 100%;
+    min-height: 780px;
     background-image: url('../assets/roleta.gif');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
-    background-color: rgba(0, 0, 0, 0.8);
+    align-items: center;
+    
 }
-.primeiro-content{
-    font-family: 'roboto';
-    font-size: 2em;
+.box-card{
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 780px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo-content{
+    display: flex;
+    justify-content: center;
+}
+.titulo-content h1{
     color: #fff;
     text-transform: uppercase;
+    font-family: 'roboto';
     text-align: center;
-    font-weight: bold;
+    font-size: 3em;
 }
-.primeiro-content span{
-    color: #08bc08;
+.titulo-content h1 span{
+    color: #17eb29;
+}
+.descricao-content{
+    display: flex;
+    justify-content: center;
+}
+.descricao-content img{
+    width: 40%;
+    margin-top: 50px;
+}
+body{
+    padding-bottom: 1000px;
 }
