@@ -221,7 +221,21 @@ footer{
     text-align: center;
     padding: 20px 0;
 }
+.copy p{
+    text-align: center;
+}
 .termos a{
     color: #fff;
 
+}
+
+
+
+
+
+
+@media (max-width:768px){
+    .descricao-content img{
+        width: 85%;
+    }
 }
