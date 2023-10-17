@@ -9,6 +9,14 @@ header{
     display: flex;
     width: 100%;
 }
+h2,p{
+    font-family: 'roboto';
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+p{
+    text-align: justify;
+}
 .topo{
     display: flex;
     width: 100%;
@@ -18,10 +26,14 @@ header{
     justify-content: center;
 }
 .descricao1{
-    color: #fff;
+    color: #ff8800;
+    text-transform: uppercase;
     font-size: 1.5em;
     font-family: 'roboto';
     text-align: center;
+}
+.descricao1 span{
+    text-decoration: underline;
 }
 .container{
     width: 100%;
@@ -49,6 +61,13 @@ main{
     background: rgba(0, 0, 0, 0.7);
     width: 100%;
     height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box-dois{
+    background: rgba(0, 0, 0, 0.9);
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -84,6 +103,7 @@ main{
     color: #000;
     border-radius: 15px;
     text-decoration: none;
+    border: 1px solid #ff8800;
     margin-top: 60px;
     display: inline-block;
     animation: zoomEffect 1s infinite alternate;
@@ -143,12 +163,13 @@ main{
     width: 450px;
     height: 450px;
     border-radius: 10px;
-    border: 1px solid #ff8800;
+    border: 1px solid #ff0000;
     margin: 10px;
 }
 .box-provaSocial img{
     width: 100%;
     height: 100%;
+    border-radius: 10px;
 }
 .zoom-imagem{
     max-width: 100%;
@@ -158,4 +179,49 @@ main{
 }
 .zoom-imagem:active {
     transform: scale(1.2); /* Ajuste o valor de escala conforme necessário */
+}
+
+
+.content-motivacao{
+    background-image: url('../assets/vida\ nova.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.frase-motivacao h2{
+    color: #ff8800;
+    padding: 60px 0;
+    font-family: 'roboto';
+    text-align: center ;
+    text-transform: uppercase;
+}
+.frase-motivacao h2 span{
+    color: #17eb29;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+footer{
+    width: 100%;
+    height: 20vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    font-family: 'roboto';
+    font-size: 1.1em;
+    text-align: center;
+    padding: 20px 0;
+}
+.termos a{
+    color: #fff;
+
 }
